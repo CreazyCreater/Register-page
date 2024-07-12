@@ -1,0 +1,108 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            background-color: brown;
+        }
+        h2{
+        text-align: center;
+        color: gray;
+        font-size: medium;
+        }
+        .form-box{
+            box-sizing: border-box;
+            border: 2px solid black;
+            box-shadow: 2px solid gray;
+            width: 300px;
+            height: 400px;
+            display: inline;
+            position: absolute;
+            top: 30%;
+            left: 30%;
+            transform: translate(-50%, -30%);
+            padding: 30px 20px;
+            background-color: white;
+            border-radius: 5px;
+            border: none;
+            font-family: sans-serif;
+        }
+        form{
+            margin: 10px;
+        }
+        input{
+            margin: 10px;
+            padding: 10px;
+        }
+        #submit{
+            width: 100%;
+            align-items: center;
+            background-color: rgb(99, 76, 224);
+            padding: 10px;
+            border: none;
+            border-radius: 2px;
+            margin-top: 30px;
+            color: white;
+        }
+        input[type]{
+            border: none;
+            outline: none;
+        }
+        a{
+            text-decoration: none;
+        }
+        p{
+            text-align: center;
+            font-size: small;
+            font-family: sans-serif;
+        }
+        .info{
+            box-sizing: border-box;
+            width: 300px;
+            height: 400px;
+            color: white;
+            position: absolute;
+            top: 30%;
+            left: 50%;
+            text-align: center;
+            padding: 20px;
+        }
+        #Login{
+            margin-top: 30px;
+            padding: 10px 20px;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            background-color:rgb(99, 76, 224);
+        }
+        h1{
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-box">
+        <h2>Register</h2>
+    <form>
+        <input type="text" placeholder="Full Name">
+        <input type="email" placeholder="Email">
+        <input type="password" placeholder="Password">
+        <input type="password" placeholder="Confirm Password">
+        <button type="submit" id="submit">Register</button>
+    </form>
+    <p>Already have account? <a href="#signin">Sgin in</a></p>
+    
+    </div>
+    <div class="info">
+        <h1><i><img src="writing.png"></i>MyCv Creater</h1>
+        <p> Make a CV define yourself The right way. Meet thousands of job announcements and employers by the help of your profile with a private extension, which you can share at all social media environments.</p>
+        <button id="Login">Login</button>
+    </div>
+</body>
+</html>
